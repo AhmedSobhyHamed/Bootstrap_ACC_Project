@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/page_edit.js"></script>
+    <style>
+        @import url(./css/custom_style.css);
+    </style>
+    <title>Document</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- nav -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#myCarousel"><span class="fa fa-paw"></span>Cat shop</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#myCarousel">HOME</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">portfolio
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#portfolio">Adoptable cat</a></li>
+                            <li><a href="#portfolio2">Products</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#pricing">Packages</a></li>
+                    <li><a href="#clinic">Clinic</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- cat shop with scrolled background -->
+    <!-- from band template -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="./resources/imgs/cat5.webp" alt="New York" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>A class flight</h3>
+                </div>      
+            </div>
+    
+            <div class="item">
+                <img src="./resources/imgs/cat7.jpg" alt="Chicago" width="1200" height="700">
+                <div class="carousel-caption">
+                    <h3>travel</h3>
+                </div>      
+            </div>
+        
+            <div class="item">
+                <img src="./resources/imgs/cat2.jpg" alt="Los Angeles" width="1200" height="700">
+                <div class="carousel-caption ">
+                    <h3>outing</h3>
+                </div>      
+            </div>
+        </div>
+        <div class="shop-name">
+            <h1>fur</h1>
+            <h2>cat shop</h2>
+        </div>
+    </div>
+    <!-- about and mission/vision -->
+    <!-- from company template -->
+    <div id="about" class="container-fluid slideanim bg-grey"> 
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>about <span class="fa fa-paw logo"></span></h2><br>
+                <h4>Fur is a cat services shop which provide adopting, food, accessories and all about cats.</h4><br>
+                <br><button class="btn btn-default btn-lg">Shoping</button>
+            </div>
+            <div class="col-sm-6">
+                <h4><strong>MISSION:</strong></h4>
+                <h4>To provide innovative, high-quality, consistent, value-for-money, pet friendly health care that will make your pet want to come back again…and again. <br>"quoted from <strong>Pet Universe</strong>"</h4><br>
+                <h4><strong>VISION:</strong></h4>
+                <h4>
+                    5 years from now, Pet Universe will be the ultimate professional veterinary practice that combines excellent healthcare delivered in a consistent, innovative, enjoyable, caring and pet-friendly way to create a value-for-money yet profitable and unforgettable service experience from our:
+                    <ul class="list_star">
+                        <li><span class="fa fa-paw"></span> Pet's Point of View</li>
+                        <li><span class="fa fa-paw"></span> Client's Point of View</li>
+                        <li><span class="fa fa-paw"></span> Staff's point of view</li>
+                        <li><span class="fa fa-paw"></span> Platinum Partner's Point Of View</li>
+                        <li><span class="fa fa-paw"></span> Owner's Point of View</li>
+                    </ul>
+                    "quoted from <strong>Pet Universe</strong>"
+                </h4>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <!-- from company template -->
+    <div id="services" class="container-fluid text-center">
+        <h2>SERVICES</h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row slideanim"> 
+            <div class="col-sm-4">
+                <span class="fa fa-paw logo-small"></span>
+                <h4>Adopting</h4>
+                <p>we offer  cats for adopting</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="fa fa-cutlery logo-small"></span>
+                <h4>Feeding</h4>
+                <p>we offer cat foods, baby cat foods, and cat dry food</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="fa fa-puzzle-piece logo-small"></span>
+                <h4>Accessories</h4>
+                <p>bags, beds, toys, fur care, ...</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row slideanim"> 
+            <div class="col-sm-4">
+                <span class="fa fa-stethoscope logo-small"></span>
+                <h4>Healthcare</h4>
+                <p>24/7 pet clinic</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-scissors logo-small"></span>
+                <h4>Fur cutting</h4>
+                <p>cat barber is ready for your cat</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="fa fa-heart-o logo-small"></span>
+                <h4>mating</h4>
+                <p>we offer this too</p>
+            </div>
+        </div>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="fa fa-space-shuttle logo-small"></span>
+                <h4>Travel</h4>
+                <p>travel with a cat to a forign country</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="fa fa-blind logo-small"></span>
+                <h4>Outing</h4>
+                <p>outing with a cat for 1 hour</p>
+            </div>
+        </div>
+        <br><br>
+    </div>
+    <!-- adouptedable cat galary scrolled -->
+    <!-- from company template -->
+    <div id="portfolio" class="container-fluid text-center bg-grey">
+        <h2>Cats available for adopting</h2>
+        <div id="myCarousel2" class="carousel slide text-center" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel2" data-slide-to="1"></li>
+                <li data-target="#myCarousel2" data-slide-to="2"></li>
+                <li data-target="#myCarousel2" data-slide-to="3"></li>
+                <li data-target="#myCarousel2" data-slide-to="4"></li>
+                <li data-target="#myCarousel2" data-slide-to="5"></li>
+                <li data-target="#myCarousel2" data-slide-to="6"></li>
+                <li data-target="#myCarousel2" data-slide-to="7"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./resources/imgs/cat1.webp" alt="">
+                    <p>boraai</p>
+                </div>
+                <div class="item">
+                    <img src="./resources/imgs/cat2.jpg" alt="">
+                    <p>sami</p>
+                </div>
+                <div class="item">
+                    <img src="./resources/imgs/cat3.jpg" alt="">
+                    <p>sanfor</p>
+                </div>
+                <div class="item">
+                    <img src="./resources/imgs/cat4.webp" alt="">
+                    <p>toto</p>
+                </div>
+                <div class="item">
+                    <img src="./resources/imgs/cat5.webp" alt="">
+                    <p>galferd</p>
+                </div>
+                <div class="item">
+                    <img src="./resources/imgs/cat6.jpeg" alt="">
+                    <p>fathia</p>
+                </div>
+                <div class="item">
+                    <img src="./resources/imgs/cat7.jpg" alt="">
+                    <p>simba</p>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- our product galary colomn -->
+    <!-- from company template -->
+    <div id="portfolio2" class="container-fluid text-center">
+        <h2>Our services</h2><br>
+        <h4>cat food</h4>
+        <div class="row text-center slideanim"> 
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./resources/imgs/food1.png" alt="frozeen food" width="400" height="300">
+                    <p><strong>frozeen food</strong></p>
+                    <p>Feline Natural Freeze Dried Food Beef & Hoki - 100g</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./resources/imgs/food2.jpg" alt="dry food" width="400" height="300">
+                    <p><strong>Dry food</strong></p>
+                    <p>Acana Cat All Breeds & Stages Pacifica - 4.5kg</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./resources/imgs/food3.jpg" alt="can food" width="400" height="300">
+                    <p><strong>Canned food</strong></p>
+                    <p>Aatas Cat Canned Creamy Chicken & Crab [80g X 24cans]</p>
+                </div>
+            </div>
+        </div><br>
+        <h4>cat bags</h4>
+        <div class="row text-center slideanim"> 
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./resources/imgs/bag1.jpg" alt="Pet crates big" width="400" height="300">
+                    <p><strong>Pet crates big</strong></p>
+                    <p>Catit Cabrio Cat Carrier - Gray/Gray</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./resources/imgs/bag2.jpg" alt="Pet crates mid" width="400" height="300">
+                    <p><strong>Pet crates mid</strong></p>
+                    <p>Stefanplast Gulliver 6 IATA</p>
+                </div>
+            </div>
+        </div><br>
+        <h4>cat accessories</h4>
+        <div class="row text-center slideanim"> 
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./resources/imgs/care1.jpg" alt="Nail Cutter" width="400" height="300">
+                    <p><strong>Nail Cutter</strong></p>
+                    <p>Le Salon Essentials Cat Guillotine Nail Cutter</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./resources/imgs/care2.jpg" alt="Self Groomer" width="400" height="300">
+                    <p><strong>Self Groomer</strong></p>
+                    <p>Catit Senses 2.0 Self Groomer</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./resources/imgs/care3.jpg" alt="Toothbrush" width="400" height="300">
+                    <p><strong>Toothbrush</strong></p>
+                    <p>Absolute Plus Dual Head Toothbrush</p>
+                </div>
+            </div>
+        </div><br>
+        <h4>cat food accessories</h4>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./resources/imgs/dish1.jpg" alt="Cat Dish" width="400" height="300">
+                    <p><strong>Cat Dish</strong></p>
+                    <p>Catit 2-in-1 Style Cat Dish - Urban</p>
+                </div>
+            </div>
+        </div><br>
+    </div>
+    <!-- let your cat in our care with price -->
+    <!-- from company template -->
+    <div id="pricing" class="container-fluid bg-grey">
+        <div class="text-center">
+            <h2>Care packages</h2>
+            <h4>Keep you cat with us while you outside</h4>
+        </div>
+        <div class="row slideanim"> 
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Basic</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>1</strong> <span>Cat bed</span></p>
+                        <p><strong>3</strong> <span>meals/day</span></p>
+                        <p><strong>30minutes</strong> <span>walking</span></p>
+                        <p><strong>25m<sup>2</sup></strong> <span>play area</span></p>
+                        <p><strong>ultimate</strong> <span>healthcare</span></p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$19.9</h3>
+                        <h4>for 3 days</h4>
+                        <button class="btn btn-lg">booking</button>
+                    </div>
+                </div>      
+            </div>     
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Pro</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>3</strong> <span>Cat beds</span></p>
+                        <p><strong>3</strong> <span>meals/day/cat</span></p>
+                        <p><strong>1hour</strong> <span>walking</span></p>
+                        <p><strong>25m<sup>2</sup></strong> <span>private area</span></p>
+                        <p><strong>ultimate</strong> <span>healthcare</span></p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$29</h3>
+                        <h4>for 3 days</h4>
+                        <button class="btn btn-lg">booking</button>
+                    </div>
+                </div>      
+            </div>       
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Premium</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>3</strong> <span>Cat beds</span></p>
+                        <p><strong>3</strong> <span>meals/day/cat</span></p>
+                        <p><strong>1hour</strong> <span>walking</span></p>
+                        <p><strong>25m<sup>2</sup></strong> <span>private area</span></p>
+                        <p><strong>2hour</strong> <span>play in park</span></p>
+                        <p><strong>ultimate</strong> <span>healthcare</span></p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$100</h3>
+                        <h4>for 60 day per year</h4>
+                        <button class="btn btn-lg">booking</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- clinic booking -->
+    <!-- from band remplate -->
+    <div id="clinic" class="bg-1">
+        <div class="container">
+            <h3 class="text-center">clinic</h3>
+            <p class="text-center">we offer a high quality pet clinic for you cat,<br>don't wait book a ticket now</p>
+            <ul class="list-group">
+                <li class="list-group-item">Sunday <span class="label label-danger">Sold Out!</span></li>
+                <li class="list-group-item">Monday <span class="label label-danger">Sold Out!</span></li> 
+                <li class="list-group-item" data-toggle="modal" data-target="#myModal">Tuesday <span class="badge">10</span></li> 
+                <li class="list-group-item" data-toggle="modal" data-target="#myModal">wednesday <span class="badge">3</span></li> 
+                <li class="list-group-item" data-toggle="modal" data-target="#myModal">thursday <span class="badge">15</span></li> 
+                <li class="list-group-item" data-toggle="modal" data-target="#myModal">friday <span class="badge">15</span></li> 
+                <li class="list-group-item" data-toggle="modal" data-target="#myModal">saturday <span class="badge">15</span></li> 
+            </ul>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                        <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per cat</label>
+                                <input type="number" class="form-control" id="psw" placeholder="How many?">
+                            </div>
+                            <div class="form-group">
+                                <label for="usrname"><span class="glyphicon glyphicon-user"></span> type of visit</label>
+                                <input type="text" class="form-control" id="usrname" placeholder="description">
+                            </div>
+                            <button type="submit" class="btn btn-block">Pay 
+                                <span class="glyphicon glyphicon-ok"></span>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                            <span class="glyphicon glyphicon-remove"></span> Cancel
+                        </button>
+                        <p>Need <a href="#">help?</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- from blog (custommer review) -->
+    <!-- from band template -->
+    <div id="blog-comm" class="container-fluid bg-grey">
+        <div class="container">
+            <h3 class="text-center">Top three comments</h3>  
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
+                <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
+                <li><a data-toggle="tab" href="#menu2">Peter</a></li>
+            </ul>
+            
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <h2>Mike Ross</h2>
+                    <p>Man, we've been outside then when we back we found our cat is dead , byt no problem they replace it immediately with a street cat.</p>
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                    <h2>Chandler Bing</h2>
+                    <p>My cat was squint , but with on hummer strock it become normal ,imagen that. its a magic.</p>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <h2>Peter Griffin</h2>
+                    <p>My cat was fat i send it to the care service when iam out, then i receive it slim and starving, thay produce an awosome cat sports tequnic .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact us -->
+    <!-- from band template -->
+    <div id="contact" class="container">
+        <h3 class="text-center">Contact</h3>
+        <p class="text-center"><em>give your feedback</em></p>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <p>Clinet? Drop a note.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+            </div>
+            <div class="col-md-8">
+                <form action="">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button id="comadd" class="btn pull-right" type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <!-- from who am i template -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>Bootstrap Theme Made By <a href="#myCarousel">Ahmed Sobhy Hamed</a></p> 
+    </footer>
+</body>
+</html>

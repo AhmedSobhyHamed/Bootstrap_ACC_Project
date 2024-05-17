@@ -89,7 +89,7 @@ For this project, I customized some CSS styles and wrote some JavaScript scripts
 ## Usage
 
 **You can interact with the project via this link**
-[web page on github]().
+[web page on github](https://ahmedsobhyhamed.github.io/Bootstrap_ACC_Project/).
 <br>
 **[see an example for user interaction.[video]](https://youtube.com)**
 <br>
@@ -111,6 +111,7 @@ For this project, I customized some CSS styles and wrote some JavaScript scripts
   - index.html
 - Tamplates that used:
   - resources/templates/\*.html
+
     <!-- licance -->
 
 ## License

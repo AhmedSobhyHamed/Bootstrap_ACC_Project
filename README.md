@@ -7,7 +7,6 @@ A small Bootstrap-based project using HTML, CSS, Bootstrap, and JavaScript to re
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
